@@ -1,4 +1,10 @@
 app-footer{
-  position: sticky;
-  top: 100%;
+  position: sticky; 
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.conteudo-principal{
+  min-height: 100vh;
 }
