@@ -8,3 +8,7 @@ body{
 .conteudo-principal{
   min-height: 100vh;
 }
+app-header{
+  position: sticky;
+  top: 0;
+}

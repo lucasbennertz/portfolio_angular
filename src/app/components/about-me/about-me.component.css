@@ -4,7 +4,7 @@ align-items: center;
 justify-content: space-between;
 flex-wrap: nowrap;
 gap: 2rem;
-background: linear-gradient(60deg, #3a1ce2, #000080);
+background: linear-gradient(60deg, #840060, #000080);
 color: white;
 padding: clamp(1rem, 4vw, 2.5rem);
 }

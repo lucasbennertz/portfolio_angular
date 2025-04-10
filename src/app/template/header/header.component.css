@@ -3,7 +3,7 @@ img{
   width: 3.9rem;
 }
 mat-toolbar{
-  background-color: black;
+  background-color: #080909;
   display: flex;
   justify-content: space-between;
 }
@@ -13,4 +13,5 @@ a{
   text-decoration: none;
   margin: 0px 10px 0px 0px;
 }
+
 
