@@ -1,0 +1,32 @@
+.skill-card {
+    width: clamp(150px, 30%, 250px);  /* Largura responsiva ajustada */
+    min-height: 100px;  /* Garante altura mínima adequada */
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparente, mas visível */
+    border-radius: 0.75rem;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-4px) scale(1.05);  /* Efeito de hover aprimorado */
+}
+
+mat-card-content {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.skill-name {
+    font-size: 1.2rem;  /* Aumenta a legibilidade do nome */
+    font-weight: 500;
+    margin: 0;
+}
+
+fa-icon {
+    font-size: 2rem;  /* Aumenta o tamanho do ícone */
+}

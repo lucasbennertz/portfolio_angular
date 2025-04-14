@@ -1,9 +1,13 @@
-app-footer{
-  position: sticky; 
+app-footer {
+  position: sticky;
 }
+
 body{
+  height: 100%;
   display: flex;
   flex-direction: column;
+  background: radial-gradient(ellipse at top, #000080, transparent),
+              radial-gradient(ellipse at bottom, #840060, transparent);
 }
 .conteudo-principal{
   min-height: 100vh;

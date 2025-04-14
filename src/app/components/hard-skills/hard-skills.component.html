@@ -1,1 +1,18 @@
-<h1>Apenas um teste</h1>
+<div class="hard-skills-container">
+    <div class="imagem">
+      <img src="/Codigos.png" alt="">
+    </div>
+  
+    <div class="texto">
+      <h1>Minhas habilidades</h1>
+  
+      <div class="cards-wrapper">
+        <app-card 
+          *ngFor="let skill of hardSkills"
+          [iconHabilidade]="skill.iconName" 
+          [nomeHabilidade]="skill.nome">
+        </app-card>
+      </div>
+    </div>
+  </div>
+  
