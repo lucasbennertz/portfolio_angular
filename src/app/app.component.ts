@@ -7,7 +7,6 @@ import { HardSkillsComponent } from './components/hard-skills/hard-skills.compon
 @Component({
   selector: 'app-root',
   imports: [
-    RouterOutlet,
     HeaderComponent,
     FooterComponent,
     AboutMeComponent,
