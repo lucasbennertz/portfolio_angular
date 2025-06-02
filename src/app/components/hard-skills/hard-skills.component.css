@@ -35,13 +35,12 @@
   .cards-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     margin-top: 1rem;
     width: 100%;
   }
   
   app-card {
-    margin: 5px;
+    margin: 0.1rem;
     flex: 1 1 200px; /* base 200px, pode crescer/reduzir */
     max-width: 250px;
   }
