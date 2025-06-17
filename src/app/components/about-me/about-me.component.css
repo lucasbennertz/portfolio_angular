@@ -1,11 +1,11 @@
 .apresentacao {
-display: flex;
-align-items: center;
-justify-content: space-between;
-flex-wrap: nowrap;
-gap: 2rem;
-color: white;
-padding: clamp(1rem, 4vw, 2.5rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    color: white;
+    padding: clamp(1rem, 4vw, 2.5rem);
 }
 
 .texto {
@@ -33,7 +33,7 @@ flex: 1;
 display: flex;
 justify-content: center;
 align-items: center;
-min-width: 250px;
+min-width: 150px;
 }
 
 .imagem img {
