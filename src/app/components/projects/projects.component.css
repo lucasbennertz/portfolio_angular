@@ -1,0 +1,13 @@
+.projects{
+    height: 90vh;
+    color: white;
+}
+.projects h2{
+    text-align: center;
+    font-size: 5vw;
+}
+.cards{
+    padding: 5vh 4vw;
+    display: flex;
+    justify-content: space-between;
+}
