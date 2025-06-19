@@ -34,12 +34,11 @@
   .cards-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    width: 100%;
+    margin-top: 2rem;
+    width: 40vw;
+    border: solid 1px white;
   }
 
   app-card {
-    margin: 0.3rem;
-    display: flex;
-    width: 12vw;
+    margin: 0.5vh 0.4vw;
   }

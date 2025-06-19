@@ -1,12 +1,15 @@
 .skill-card {
-    width: clamp(150px, 30%, 250px);  /* Largura responsiva ajustada */
-    min-height: 100px;  /* Garante altura mínima adequada */
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.1); /* Transparente, mas visível */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    max-width: 150px;
+    min-width: 120px;
+    height: 14vh;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 0.75rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     color: white;
-    transition: transform 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .skill-card:hover {
@@ -16,7 +19,6 @@
 mat-card-content {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
     align-items: center;
 }
 
