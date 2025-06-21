@@ -36,7 +36,6 @@
     flex-wrap: wrap;
     margin-top: 2rem;
     width: 40vw;
-    border: solid 1px white;
   }
 
   app-card {
