@@ -1,6 +1,7 @@
 .projects{
-    height: 90vh;
+    height: 100vh;
     color: white;
+    border: solid 1px transparent;
 }
 .projects h2{
     text-align: center;
