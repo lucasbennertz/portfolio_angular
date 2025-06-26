@@ -28,6 +28,9 @@ mat-card-content {
     margin: 0;
 }
 
-fa-icon {
+fa-icon{
     font-size: 2rem;  /* Aumenta o tamanho do ícone */
+}
+img{
+    height: 4vh;
 }

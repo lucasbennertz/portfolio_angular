@@ -16,12 +16,38 @@ import { CommonModule } from '@angular/common';
 })
 export class HardSkillsComponent {
   hardSkills: HardSkillModel[] = [
-    {nome: "Java", iconName: faJava},
-    {nome: "HTML5", iconName: faHtml5},
-    {nome: "CSS3", iconName: faCss3},
-    {nome: "Docker", iconName: faDocker},
-    {nome: "Javascript", iconName: faJs},
-    {nome: "Linux", iconName: faLinux},
-    {nome: "Git", iconName: faGithub},
+    {
+      nome: "Java", iconName: faJava,
+      iconUrl: null
+    },
+    {
+      nome: "HTML5", iconName: faHtml5,
+      iconUrl: null
+    },
+    {
+      nome: "CSS3", iconName: faCss3,
+      iconUrl: null
+    },
+    {
+      nome: "Docker", iconName: faDocker,
+      iconUrl: null
+    },
+    {
+      nome: "Javascript", iconName: faJs,
+      iconUrl: null
+    },
+    {
+      nome: "Linux", iconName: faLinux,
+      iconUrl: null
+    },
+    {
+      nome: "Git", iconName: faGithub,
+      iconUrl: null
+    },
+    {
+      nome: 'Flutter',
+      iconName: null,
+      iconUrl: "/imagens/logos/Logo-flutter.png"
+    }
   ]
 }

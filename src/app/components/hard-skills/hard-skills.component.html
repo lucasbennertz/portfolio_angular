@@ -9,8 +9,9 @@
       <div class="cards-wrapper">
         <app-card 
           *ngFor="let skill of hardSkills"
-          [iconHabilidade]="skill.iconName" 
-          [nomeHabilidade]="skill.nome">
+          [iconHabilidade]="skill.iconName"
+          [nomeHabilidade]="skill.nome"
+          [urlIconHabilidade]="skill.iconUrl" >
         </app-card>
       </div>
     </div>
