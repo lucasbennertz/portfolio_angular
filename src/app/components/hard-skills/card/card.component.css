@@ -34,3 +34,38 @@ fa-icon{
 img{
     height: 4vh;
 }
+/* Adiciona sombra sutil para destacar o card */
+.skill-card {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Melhora o foco para acessibilidade */
+.skill-card:focus {
+    outline: 2px solid #90caf9;
+    outline-offset: 2px;
+}
+
+/* Suaviza a transição de sombra e transformação */
+.skill-card,
+.skill-card:hover {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Ajusta responsividade para telas menores */
+@media (max-width: 600px) {
+    .skill-card {
+        width: 80vw;
+        min-width: unset;
+        max-width: unset;
+        height: 10vh;
+    }
+    .skill-name {
+        font-size: 1rem;
+    }
+    fa-icon {
+        font-size: 1.5rem;
+    }
+    img {
+        height: 3vh;
+    }
+}
