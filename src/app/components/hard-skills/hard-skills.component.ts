@@ -6,48 +6,71 @@ import { HardSkillModel } from './hard-skill.model';
 import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-hard-skills',
-  imports: [
-    FontAwesomeModule,
-    CardComponent,
-    CommonModule
-  ],
+  imports: [FontAwesomeModule, CardComponent, CommonModule],
   templateUrl: './hard-skills.component.html',
-  styleUrl: './hard-skills.component.css'
+  styleUrl: './hard-skills.component.css',
 })
 export class HardSkillsComponent {
   hardSkills: HardSkillModel[] = [
     {
-      nome: "Java", iconName: faJava,
-      iconUrl: null
+      nome: 'Java',
+      iconName: faJava,
+      iconUrl: null,
     },
     {
-      nome: "HTML5", iconName: faHtml5,
-      iconUrl: null
+      nome: 'HTML5',
+      iconName: faHtml5,
+      iconUrl: null,
     },
     {
-      nome: "CSS3", iconName: faCss3,
-      iconUrl: null
+      nome: 'CSS3',
+      iconName: faCss3,
+      iconUrl: null,
     },
     {
-      nome: "Docker", iconName: faDocker,
-      iconUrl: null
+      nome: 'Docker',
+      iconName: faDocker,
+      iconUrl: null,
     },
     {
-      nome: "Javascript", iconName: faJs,
-      iconUrl: null
+      nome: 'Javascript',
+      iconName: faJs,
+      iconUrl: null,
     },
     {
-      nome: "Linux", iconName: faLinux,
-      iconUrl: null
+      nome: 'Linux',
+      iconName: faLinux,
+      iconUrl: null,
     },
     {
-      nome: "Git", iconName: faGithub,
-      iconUrl: null
+      nome: 'Git',
+      iconName: faGithub,
+      iconUrl: null,
     },
     {
       nome: 'Flutter',
       iconName: null,
-      iconUrl: "/imagens/logos/Logo-flutter.png"
-    }
-  ]
+      iconUrl: '/imagens/logos/Logo-flutter.png',
+    },
+    {
+      nome: 'Spring',
+      iconName: null,
+      iconUrl: '/imagens/logos/Spring_Boot.png',
+    },
+    {
+      nome: 'MySQL',
+      iconName: null,
+      iconUrl: '/imagens/logos/Logo-Mysql.png',
+    },
+    {
+      nome: 'PostgreSQL',
+      iconName: null,
+      iconUrl: '/imagens/logos/Logo_PostgreSQL.png',
+    },
+    {
+      nome: 'MongoDB',
+      iconName: null,
+      iconUrl: '/imagens/logos/Logo_MongoDB.png',
+    },
+  ];
 }
