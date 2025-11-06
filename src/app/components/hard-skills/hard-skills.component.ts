@@ -50,33 +50,28 @@ export class HardSkillsComponent {
     {
       nome: 'Flutter',
       iconName: null,
-<<<<<<< HEAD
-      iconUrl: '/imagens/logos/Logo-flutter.png',
+      iconUrl: '/imagens/logos/Logo-flutter.webp',
     },
     {
       nome: 'Spring',
       iconName: null,
-      iconUrl: '/imagens/logos/Spring_Boot.png',
+      iconUrl: '/imagens/logos/Spring_Boot.webp',
     },
     {
       nome: 'MySQL',
       iconName: null,
-      iconUrl: '/imagens/logos/Logo-Mysql.png',
+      iconUrl: '/imagens/logos/Logo-Mysql.webp',
     },
     {
       nome: 'PostgreSQL',
       iconName: null,
-      iconUrl: '/imagens/logos/Logo_PostgreSQL.png',
+      iconUrl: '/imagens/logos/Logo_PostgreSQL.webp',
     },
     {
       nome: 'MongoDB',
       iconName: null,
-      iconUrl: '/imagens/logos/Logo_MongoDB.png',
+      iconUrl: '/imagens/logos/Logo_MongoDB.webp',
     },
   ];
-=======
-      iconUrl: "/imagens/logos/Logo-flutter.webp"
-    }
-  ]
->>>>>>> 8d75ebf (melhoras de SEO e best practices)
 }
+  
