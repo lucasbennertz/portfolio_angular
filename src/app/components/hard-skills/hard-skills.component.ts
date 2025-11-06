@@ -50,6 +50,7 @@ export class HardSkillsComponent {
     {
       nome: 'Flutter',
       iconName: null,
+<<<<<<< HEAD
       iconUrl: '/imagens/logos/Logo-flutter.png',
     },
     {
@@ -73,4 +74,9 @@ export class HardSkillsComponent {
       iconUrl: '/imagens/logos/Logo_MongoDB.png',
     },
   ];
+=======
+      iconUrl: "/imagens/logos/Logo-flutter.webp"
+    }
+  ]
+>>>>>>> 8d75ebf (melhoras de SEO e best practices)
 }

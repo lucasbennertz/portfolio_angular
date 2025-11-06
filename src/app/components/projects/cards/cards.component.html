@@ -2,5 +2,5 @@
     <h2>{{nomeProjeto}}</h2>
     <img src="{{imagemProjeto}}" alt="Imagem do Projeto">
     <p>{{descProjeto}}</p>
-    <a href="">Acesse aqui!</a>
+    <a href="{{linkProjeto}}" *ngIf="linkProjeto.length > 2" >Acesse aqui!</a>
 </div>

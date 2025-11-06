@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2dvh 2dvw;
 }
 .projects-card:hover{
     transform: scale(110%) ;
@@ -20,4 +21,7 @@ img{
 a{
     color: lightblue;
     text-decoration: none;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
