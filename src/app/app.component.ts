@@ -5,6 +5,8 @@ import { FooterComponent } from './template/footer/footer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { HardSkillsComponent } from './components/hard-skills/hard-skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+
 @Component({
   selector: 'app-root',
   imports: [
@@ -12,7 +14,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     FooterComponent,
     AboutMeComponent,
     HardSkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
