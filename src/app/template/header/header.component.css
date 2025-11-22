@@ -12,7 +12,13 @@ a{
   font-size: clamp(1rem, 3vw, 1.2rem);
   color: white;
   text-decoration: none;
-  margin: 0dvh 1dvw
+  margin: 0px 10px 0px 0px;
 }
 
-
+@media (max-width: 768px) {
+  mat-toolbar {
+    padding: 0 5vw;
+    justify-content: center;
+    gap: 20px;
+  }
+}

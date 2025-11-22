@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     color: white;
     padding: clamp(1rem, 4vw, 2.5rem);
-    height: 80vh;
+    min-height: auto;
   }
 
   .imagem {
@@ -28,7 +28,7 @@
   }
 
   .texto h1 {
-    font-size: 4vw;
+    font-size: clamp(2rem, 6vw, 4rem);
     margin-bottom: 0.5rem;
   }
 
@@ -41,4 +41,17 @@
 
   app-card {
     margin: 0.5vh 0.4vw;
+  }
+  @media (max-width: 768px) {
+    .hard-skills-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .imagem{
+      display: none;
+    }
+    .cards-wrapper{
+      width: 100%;
+      justify-content: center;
+    }
   }
